@@ -67,3 +67,8 @@ chmod +x insert_data.sh
 clear
 ls --color=auto
 chmod +x insert_data.sh
+pg_dump -cC --inserts -U freecodecamp worldcup > worldcup.sql
+clear
+ls --color=auto
+git init
+git add .
